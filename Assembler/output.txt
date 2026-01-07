@@ -1,0 +1,4 @@
+start: add ra,sp,gp
+jalr t0,t1,4
+beq ra,sp,start
+beq zero,zero,0
