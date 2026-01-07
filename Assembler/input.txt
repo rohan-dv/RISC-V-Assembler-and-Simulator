@@ -1,0 +1,6 @@
+start: add ra,sp,gp
+jalr t0,t1,4
+beq ra,sp,start
+beq zero,zero,0
+add r3, r1, r2
+0000000 00010 00001 000 00011 0110011
